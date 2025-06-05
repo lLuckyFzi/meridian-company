@@ -2,7 +2,6 @@
 
 import Image from "next/image";
 import React from "react";
-import { Button } from "antd";
 import { HiArrowLongRight } from "react-icons/hi2";
 import { FaPhoneAlt } from "react-icons/fa";
 import AccordionItem from "@meridian/components/Accordion";
