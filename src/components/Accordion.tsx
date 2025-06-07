@@ -20,8 +20,6 @@ export default function AccordionItem({
       className={`rounded-lg mb-4 transition-colors duration-300 ${
         isOpen ? "bg-white" : "bg-[#E9FBF4]"
       }` }
-      data-aos="fade-up"
-      data-aos-delay={delay}
     >
       <button
         onClick={() => setIsOpen(!isOpen)}
