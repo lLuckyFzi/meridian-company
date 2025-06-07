@@ -1,52 +1,50 @@
-import { Button, ButtonProps } from "antd";
 import React, { ReactNode } from "react";
 import { twMerge } from "tailwind-merge";
 
-type PrimaryButtonProps = ButtonProps & {
+type PrimaryButtonProps = React.ButtonHTMLAttributes<HTMLButtonElement> & {
   children: ReactNode;
 };
 
-type SecondaryButtonProps = ButtonProps & {
+type SecondaryButtonProps = React.ButtonHTMLAttributes<HTMLButtonElement> &  {
   children: ReactNode;
   className: string;
+  icon?: ReactNode
 };
 
 function PrimaryButton(props: PrimaryButtonProps) {
   const { children, className, ...otherProps } = props;
 
   return (
-    <Button
-      type="primary"
+    <button
       className={twMerge(
-        "!rounded-none !h-16 !bg-teal-accent !font-medium !text-[16px] !text-white relative overflow-hidden group hover:bg-transparent !p-0",
+        "!rounded-none !h-16 !bg-teal-accent !font-medium !text-[16px] !text-white relative overflow-hidden group hover:bg-transparent !p-0 cursor-pointer",
         className
       )}
       onClick={() => {}}
       {...otherProps}
     >
       <span className="relative z-10 px-6 h-full flex items-center justify-center duration-300 ease-in-out group-hover:text-gray-700">
-        {children || "Button"}
+        {children || "button"}
       </span>
       <span
         className="absolute inset-0 bg-white transform translate-x-full
                    transition-transform duration-300 ease-in-out group-hover:-translate-x-0"
       />
-    </Button>
+    </button>
   );
 }
 
 export function SecondaryButton(props: SecondaryButtonProps) {
-  const { children, className, ...otherProps } = props;
+  const { children, className, icon, ...otherProps } = props;
 
   return (
-    <Button
-      type="text"
-      className={twMerge("!px-5 !py-5 !flex !items-center", className)}
-      iconPosition="end"
+    <button
+      className={twMerge("!px-5 py-3 !flex !items-center cursor-pointer gap-x-3 duration-300", className)}
       {...otherProps}
     >
       {children}
-    </Button>
+      {icon && icon}
+    </button>
   );
 }
 
