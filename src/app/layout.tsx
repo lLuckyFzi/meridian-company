@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import { Montserrat, Inter } from "next/font/google";
 import "./globals.css";
+import 'aos/dist/aos.css';
+
 import Header from "@meridian/layout/Header";
 import Footer from "@meridian/layout/Footer";
 

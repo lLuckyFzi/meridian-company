@@ -12,7 +12,7 @@ function ServicesSection() {
       id="services"
       className="h-auto bg-teal-primary pt-52 flex flex-col gap-y-14 max-lg:pt-14 max-[1300px]:pt-12 max-lg:scroll-mt-24 "
     >
-      <div className="px-32 flex flex-col gap-y-7 max-lg:px-16 max-md:px-7">
+      <div className="px-32 flex flex-col gap-y-7 max-lg:px-16 max-md:px-7" data-aos="fade-right">
         <HeaderSlash
           className="text-white"
           light
@@ -28,7 +28,7 @@ function ServicesSection() {
         <p className="font-light text-[20px] text-white max-lg:text-center">Kami menyediakan berbagai solusi pengukuran dan pemetaan yang presisi untuk mendukung proyek Anda.</p>
       </div>
       <div className="grid grid-cols-4 grid-rows-1 gap-0 h-full max-md:flex max-md:flex-col">
-        {ServicesData.map((d) => {
+        {ServicesData.map((d, i) => {
           return (
             <ServicesCard
               key={d.id}
@@ -38,6 +38,7 @@ function ServicesSection() {
               description={d.description}
               activeId={activeCard == d.id}
               onHover={() => setActiveCard(d.id)}
+              delay={i * 300}
             />
           );
         })}

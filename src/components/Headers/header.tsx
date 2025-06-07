@@ -24,7 +24,7 @@ function HeaderSlash(props: HeaderSlashProps) {
 
   return (
     <div className={twMerge("flex flex-col gap-y-2", className)}>
-      <div className="flex items-center gap-x-3">
+      <div className="flex items-center gap-x-3" data-aos="fade-right" data-aos-duration="700">
         {slash && (
           <hr
             className={twMerge(
