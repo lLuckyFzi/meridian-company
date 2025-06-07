@@ -3,16 +3,17 @@ import { RiSpeakAiFill } from "react-icons/ri";
 
 interface SkillCardProps {
   idx: number;
+  delay: number;
   icon: ReactNode;
   title: string;
   description: string;
 }
 
 function SkillCard(props: SkillCardProps) {
-  const { icon, title, description, idx } = props;
+  const { icon, title, description, idx, delay } = props;
 
   return (
-    <div className="relative bg-white flex flex-col gap-y-3.5 p-8 shadow-2xl h-[280px] hover:bg-teal-primary group duration-300 transition-colors max-lg:h-auto">
+    <div className="relative bg-white flex flex-col gap-y-3.5 p-8 shadow-2xl h-[280px] hover:bg-teal-primary group duration-300 transition-colors max-lg:h-auto" data-aos="fade-up" data-aos-delay={delay}>
       <span className="bg-teal-primary p-3.5 text-white font-bold text-2xl font-montserrat absolute top-0 right-0 group-hover:bg-teal-accent">{`0${idx}` || "01"}</span>
       <div>
         {icon || <RiSpeakAiFill className="w-8 h-8 text-teal-primary" />}
