@@ -21,12 +21,12 @@ function ServicesCard(props: ServicesCardProps) {
       <Image src={img} alt={title} className="w-full object-contain" />
       <motion.div
         className="absolute bottom-0 p-5 bg-[rgba(255,255,255,0.1)] backdrop-blur-md backdrop-saturate-150 text-white max-md:w-full"
-        initial={{ y: "100%", opacity: 0 }}
-        animate={{
-          y: activeId ? "0%" : "100%",
-          opacity: activeId ? 1 : 0,
-        }}
-        transition={{ duration: 0.2, ease: "easeInOut" }}
+        // initial={{ y: "100%", opacity: 0 }}
+        // animate={{
+        //   y: activeId ? "0%" : "100%",
+        //   opacity: activeId ? 1 : 0,
+        // }}
+        // transition={{ duration: 0.2, ease: "easeInOut" }}
       >
         <div className="flex flex-col gap-y-7">
           {icon || <BiRuler className="w-10 h-10 text-white" />}

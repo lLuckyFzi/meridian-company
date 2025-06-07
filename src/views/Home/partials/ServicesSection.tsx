@@ -10,7 +10,7 @@ function ServicesSection() {
   return (
     <section
       id="services"
-      className="h-auto bg-teal-primary pt-52 flex flex-col gap-y-14 max-lg:pt-14 max-[1300px]:pt-12"
+      className="h-auto bg-teal-primary pt-52 flex flex-col gap-y-14 max-lg:pt-14 max-[1300px]:pt-12 max-lg:scroll-mt-24 "
     >
       <div className="px-32 flex flex-col gap-y-7 max-lg:px-16 max-md:px-7">
         <HeaderSlash

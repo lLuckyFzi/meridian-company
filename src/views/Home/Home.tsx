@@ -89,13 +89,14 @@ function Home() {
                   Anda.
                 </p>
                 <div>
-                  <SecondaryButton
-                    href="#about"
-                    className="!border !border-white !rounded-full !text-white !px-8"
-                    icon={<HiArrowLongRight className="w-6 h-6 text-white" />}
-                  >
-                    Detail Kita
-                  </SecondaryButton>
+                  <a href={"#about"}>
+                    <SecondaryButton
+                      className="!border !border-white !rounded-full !text-white !px-8 hover:bg-white hover:!text-teal-primary group"
+                      icon={<HiArrowLongRight className="w-6 h-6 text-white group-hover:text-teal-primary" />}
+                    >
+                      Detail Kita
+                    </SecondaryButton>
+                  </a>
                 </div>
               </div>
             </div>
@@ -116,10 +117,10 @@ function Home() {
           ))}
         </div>
       </div>
-      <section id="about" className="flex flex-col-reverse relative my-24 max-[1300px]:my-0">
-        <div className="w-[500px] flex flex-col gap-y-8 pl-32 max-[1300px]:px-16 max-[1300px]:w-full max-[1300px]:my-10 max-md:px-7">
+      <section id="about" className="scroll-mt-24 flex flex-col-reverse relative my-24 max-[1300px]:my-0">
+        <div className="w-[40%] h-[430px] flex flex-col gap-y-8 pl-32 max-[1300px]:px-16 max-[1300px]:w-full max-[1300px]:my-10 max-md:px-7">
           <HeaderSlash
-          light={false}
+            light={false}
             headerLine={"TENTANG KITA"}
             subHeader={
               <p className="max-lg:text-center max-md:text-4xl">
@@ -140,12 +141,12 @@ function Home() {
             berkualitas tinggi yang memenuhi dan melampaui standar industri.
           </p>
           <div className="max-lg:justify-center max-lg:flex">
-            <SecondaryButton className="!border-teal-primary !rounded-none hover:!bg-teal-primary hover:!text-white">
+            <SecondaryButton className="border !px-10 border-teal-primary text-teal-primary !rounded-none hover:!bg-teal-primary hover:!text-white">
               Mulai Sekarang
             </SecondaryButton>
           </div>
         </div>
-        <div className="w-[750px] absolute right-0 top-0 h-[555px] max-[1300px]:relative max-[1300px]:w-full">
+        <div className="w-[750px] absolute right-0 top-0 h-[655px] max-[1300px]:relative max-[1300px]:w-full">
           <div className="flex flex-col justify-between h-full p-9 z-1 absolute max-[1300px]:px-32 max-[1300px]:text-center max-[1300px]:right-0 max-[1300px]:left-0 max-[1300px]:items-center max-md:px-16">
             <Image
               src={MeridianDetailLogoWhite}
@@ -167,7 +168,7 @@ function Home() {
             src={AboutImage}
             width={9999}
             height={9999}
-            className="w-full h-full object-cover absolute"
+            className="w-full max-[1300px]:h-full object-cover absolute"
             alt="about"
           />
         </div>
@@ -203,7 +204,7 @@ function Home() {
             className="w-full max-lg:hidden"
           />
         </div>
-        <div className="text-white h-full pr-32 pl-12 max-lg:text-center max-lg:p-12 max-md:p-7">
+        <div className="text-white h-full pr-32 pl-12 max-lg:text-center max-[1080px]:p-12 max-md:p-7">
           <HeaderSlash
             light
             headerLine={"HUBUNGI KAMI"}
@@ -218,8 +219,8 @@ function Home() {
           </p>
           <div className="mt-10 max-lg:flex max-lg:justify-center">
             <SecondaryButton
-              className="!rounded-none !border-white !text-white !text-sm hover:!bg-white hover:!text-gray-700 duration-300 !gap-x-4"
-              icon={<FaPhoneAlt className="w-4 h-4 text-white" />}
+              className="!rounded-none border !border-white !text-white !text-sm hover:!bg-white hover:!text-teal-primary duration-300 !gap-x-4 group"
+              icon={<FaPhoneAlt className="w-4 h-4 text-white group-hover:text-teal-primary" />}
             >
               Mulai Sekarang
             </SecondaryButton>
@@ -227,11 +228,11 @@ function Home() {
         </div>
       </div>
       <section id="faq" className="h-auto flex items-start py-36 px-32 max-lg:px-16 max-lg:flex-col max-md:px-7 max-lg:py-12">
-        <div className="flex justify-between w-full max-lg:flex-col max-lg:gap-y-9">
+        <div className="flex justify-between w-full max-[1280px]:flex-col max-[1280px]:gap-y-9">
           <HeaderSlash
             slash={false}
             headerLine="FAQ's"
-            subHeader={<p className="w-[487px] max-lg:text-center text-5xl max-lg:w-auto max-md:text-3xl">Kami Di Sini untuk Membantu</p>}
+            subHeader={<p className="w-[487px] max-[1280px]:text-center text-5xl max-[1280px]:w-auto max-md:text-3xl">Kami Di Sini untuk Membantu</p>}
             subHeaderStyle={{ fontWeight: 700 }}
             headerLineStyle={{ fontSize: "14px", fontWeight: 700 }}
           />
