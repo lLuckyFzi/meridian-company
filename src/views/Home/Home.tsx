@@ -118,7 +118,7 @@ function Home() {
         </div>
       </div>
       <section id="about" className="scroll-mt-24 flex flex-col-reverse relative my-24 max-[1300px]:my-0">
-        <div className="w-[40%] h-[430px] flex flex-col gap-y-8 pl-32 max-[1300px]:px-16 max-[1300px]:w-full max-[1300px]:my-10 max-md:px-7 max-md:h-auto">
+        <div className="w-[40%] h-[430px] flex flex-col gap-y-8 pl-32 max-[1300px]:px-16 max-[1300px]:w-full max-[1300px]:my-10 max-md:px-7 max-[1300px]:h-auto">
           <HeaderSlash
             light={false}
             headerLine={"TENTANG KITA"}
