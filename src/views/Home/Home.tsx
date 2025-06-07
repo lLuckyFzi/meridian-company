@@ -254,7 +254,7 @@ function Home() {
               headerLineStyle={{ fontSize: "14px", fontWeight: 700 }}
             />
           </div>
-          <div className="max-w-2xl mx-auto">
+          <div className="max-w-2xl mx-auto" data-aos="fade-down">
             {accordionData.map((item, idx) => (
               <AccordionItem key={idx} {...item} delay={idx * 300} />
             ))}
