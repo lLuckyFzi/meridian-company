@@ -9,35 +9,35 @@ export const skillsData = [
     icon: (
       <RiSpeakAiFill className="w-12 h-12 text-teal-primary group-hover:text-white" />
     ),
-    title: "PENGETAHUAN TEKNIS",
+    title: "Pengetahuan Teknis Mendalam",
     description:
-      "Memiliki pemahaman mendalam tentang prinsip-prinsip geodesi, pemetaan, dan survei tanah. Ini termasuk pengetahuan tentang teknik-teknik pengukuran, alat-alat survei, dan perangkat lunak pemetaan.",
+      "Kami didukung oleh tim ahli dengan pemahaman komprehensif di bidang geodesi, pemetaan, dan survei tanah. Menguasai teknik pengukuran, pengoperasian alat survei canggih, serta perangkat lunak pemetaan terkini untuk memastikan hasil yang akurat dan presisi.",
   },
   {
     id: 2,
     icon: (
       <HiMiniUserGroup className="w-12 h-12 text-teal-primary group-hover:text-white" />
     ),
-    title: "GREAT TEAM WORK",
+    title: "Kolaborasi Tim yang Solid",
     description:
-      "Kami memiliki tim dengan kemampuan menguasai perangkat lunak pemetaan dan analisis GIS, serta kemampuan untuk mengintegrasikan data survei ke dalam sistem informasi geospasial. ",
+      "Kekuatan kami ada pada sinergi tim yang profesional. Dengan penguasaan perangkat lunak pemetaan (GIS) dan kemampuan integrasi data spasial yang andal, kami mampu memberikan solusi geospasial yang efektif, efisien, dan tepat sasaran.",
   },
   {
     id: 3,
     icon: (
       <PiChartLineBold className="w-12 h-12 text-teal-primary group-hover:text-white" />
     ),
-    title: "KEMAMPUAN ANALISIS DAN INTERPRETASI DATA",
+    title: "Analisis Data yang Akurat dan Teruji",
     description:
-      "Mampu menganalisis data survei dan menghasilkan informasi yang akurat dan dapat diandalkan. Kemampuan untuk menginterpretasikan data dari berbagai sumber dan menghasilkan peta yang jelas.",
+      "Kami mampu mengolah berbagai sumber data menjadi informasi yang akurat, relevan, dan mudah digunakan. Keahlian analisis dan interpretasi data kami mendukung pengambilan keputusan strategis dalam berbagai proyek pengembangan.",
   },
   {
     id: 4,
     icon: (
       <GiProcessor className="w-12 h-12 text-teal-primary group-hover:text-white" />
     ),
-    title: "TEKNOLOGI TERKINI",
+    title: "Teknologi Terkini & Terdepan",
     description:
-      "Menggunakan teknologi terkini dan up to date, guna untuk mendapatkan hasil yang maksimal. Karena hasil pekerjaan kami akan membuat klien kami puas dan tidak mengecewakan.",
+      "Kami selalu mengikuti perkembangan teknologi terbaru di bidang geospasial. Dengan dukungan perangkat dan sistem mutakhir, kami menjamin hasil pengukuran dan pemetaan yang presisi tinggi, minim risiko, dan memaksimalkan efisiensi proyek Anda.",
   },
 ];

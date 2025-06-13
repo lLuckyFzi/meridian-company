@@ -14,27 +14,27 @@ export const ServicesData = [
         icon: <FaRulerCombined className="w-10 h-10 text-white" /> ,
         img: ServicesMeasurement,
         title: "Pengukuran Lahan",
-        description: "Pengukuran yang dilakukan untuk penentuan batas lahan, perencanaan bangunan, dan pengembangan lahan."
+        description: "Pengukuran akurat untuk menentukan batas lahan, perencanaan pembangunan, serta pengembangan area sesuai kebutuhan."
     },
     {
         id: 2,
         icon: <MdMap className="w-10 h-10 text-white" /> ,
         img: ServicesTopography,
-        title: "Pengukuran Topography",
-        description: "Pemetaan permukaan tanah untuk pembangunan infrastruktur seperti jalan, jembatan, dan gedung."
+        title: "Pengukuran Topografi",
+        description: "Pemetaan permukaan tanah untuk mendukung perencanaan infrastruktur seperti jalan, jembatan, hingga gedung bertingkat."
     },
     {
         id: 3,
         icon: <PiDroneFill className="w-10 h-10 text-white" /> ,
         img: ServicesDrone,
-        title: "Foto Udara dan Lidar",
-        description: "Pemetaan dengan drone untuk mendapatkan gambar dari udara secara langsung dan area yang luas."
+        title: "Foto Udara & LIDAR",
+        description: "Pemotretan udara menggunakan drone dan teknologi LIDAR untuk menghasilkan citra presisi tinggi dan data topografi detail."
     },
     {
         id: 4,
         icon: <HiCpuChip className="w-10 h-10 text-white" /> ,
         img: ServicesGeogprahy,
-        title: "Sistem Informasi Geografis",
-        description: "Pengembangan SIG untuk pengambilan keputusan publik menggunakan analisa data spasial."
+        title: "Sistem Informasi Geografis (SIG)",
+        description: "Pengelolaan data special berbasis GIS yang terintegrasi, memudahkan analisis, perencanaan, dan pengambil keputusan."
     },
 ]
