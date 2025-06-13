@@ -16,7 +16,7 @@ function ServicesSection() {
         <HeaderSlash
           className="text-white"
           light
-          headerLine={"PELAYANAN"}
+          headerLine={"Layanan Kami"}
           subHeader={
             <p className="w-full max-lg:text-center max-md:text-4xl">
               Layanan Komprehensif untuk Kebutuhan Geospatial Anda

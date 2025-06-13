@@ -29,23 +29,29 @@ function Home() {
       question:
         "Layanan apa saja yang disediakan oleh PT Meridian Global Utama?",
       answer:
-        "Kami menyediakan berbagai layanan survei dan pemetaan, baik darat (terestris) maupun udara, termasuk menggunakan teknologi RTK (Real-Time Kinematic), ETS (Electronic Total Station), dan drone mapping. Kami juga melayani pemetaan topografi, tata ruang, hingga pemodelan 3D.",
+        "Kami menyediakan layanan pengukuran lahan, foto udara & LIDAR, pengukuran topografi, serta pengembangan sistem informasi geografis (GIS). Semua layanan kami didukung teknologi terkini dan tim profesional berpengalaman.",
     },
     {
-      question: "Apakah perusahaan Anda melayani proyek di seluruh Indonesia?",
+      question: "Apakah layanan bisa disesuaikan dengan kebutuhan proyek?",
       answer:
-        "Ya, kami melayani proyek di seluruh wilayah Indonesia tanpa terkecuali.",
+        "Tentu. Kami menawarkan solusi yang fleksibel dan dapat dikustomisasi sesuai kebutuhan spesifik klien, baik skala kecil, menengah, maupun proyek berskala besar.",
     },
     {
-      question: "Apa keunggulan menggunakan drone untuk pemetaan?",
+      question: "Berapa lama proses pengukuran hingga hasil akhir?",
       answer:
-        "Drone dapat menjangkau area sulit, mempercepat proses pemetaan, serta memberikan hasil yang lebih detail dan akurat dengan biaya lebih efisien.",
+        "Durasi pengerjaan bervariasi tergantung kompleksitas dan luas area. Namun, kami selalu berkomitmen memberikan hasil tepat waktu dengan tetap menjaga kualitas dan akurasi data.",
+    },
+    {
+      question:
+        "Apakah hasil pengukuran dapat langsung digunakan untuk perencanaan proyek?",
+      answer:
+        "Ya. Data hasil pengukuran kami tersaji dalam format digital yang kompatibel dengan berbagai software perencanaan dan pengolahan data GIS sehingga dapat langsung digunakan untuk tahap perencanaan lanjutan.",
     },
     {
       question:
         "Bagaimana prosedur awal jika saya ingin menggunakan layanan Anda?",
       answer:
-        "Anda bisa menghubungi kami melalui kontak yang tersedia, kemudian kami akan menjadwalkan konsultasi awal untuk memahami kebutuhan proyek Anda.",
+        "Anda bisa menghubungi kami melalui kontak yang tersedia, kemudian kami akan menjadwalkan konsultasi awal untuk memahami kebutuhan proyek Anda",
     },
   ];
   return (
